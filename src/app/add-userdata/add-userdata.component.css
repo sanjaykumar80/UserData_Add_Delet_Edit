@@ -1,0 +1,14 @@
+.form-elements{
+    width: 500px;
+
+}
+.allUserdata{
+    padding: 20px;
+  }
+  hr.line{
+    
+    margin-bottom: 1.25em;
+    width:200px;
+  border: 2px solid rgb(36, 83, 236);
+  border-radius: 1px;
+  }

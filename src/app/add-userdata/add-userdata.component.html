@@ -1,0 +1,45 @@
+<div class="container allUserdata   ">
+    <mat-card>
+        <div>
+            <h2 style="text-align:center;color:red;margin-bottom: 1px;" >ADD NEW USER DETAILS</h2>
+            <hr class="line">
+            <div>
+                <mat-form-field appearance="outline" class="form-elements">
+                    <mat-label>Nmae...</mat-label>
+                    <input matInput placeholder="Name" [(ngModel)]="userdataRecords.name">
+                </mat-form-field>
+            </div>
+
+            <div>
+                <mat-form-field appearance="outline" class="form-elements">
+                    <mat-label>Mobile No...</mat-label>
+                    <input matInput placeholder="Mobile No." [(ngModel)]="userdataRecords.mobile">
+                </mat-form-field>
+            </div>
+
+            <div>
+                <mat-form-field appearance="outline" class="form-elements">
+                    <mat-label>Address...</mat-label>
+                    <input matInput placeholder="Address" [(ngModel)]="userdataRecords.address">
+                </mat-form-field>
+            </div>
+
+            <div>
+                <mat-form-field appearance="outline" class="form-elements">
+                    <mat-label>Gender...</mat-label>
+                    <input matInput placeholder="Gender" [(ngModel)]="userdataRecords.gender">
+                </mat-form-field>
+            </div>
+
+            <div>
+                <mat-form-field appearance="outline" class="form-elements">
+                    <mat-label>Email...</mat-label>
+                    <input matInput placeholder="Email" [(ngModel)]="userdataRecords.email">
+                </mat-form-field>
+            </div>
+            <div>
+                <button mat-raised-button color="primary" (click)="addrecords()">Add Records</button>
+            </div>
+        </div>
+    </mat-card>
+</div>
